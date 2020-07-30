@@ -16,7 +16,8 @@ Analyze Airbnb data in selected international cities in 2018-2019 and predict th
 * Rio - Thomas
 * Berlin - Laura
 
-# Data | http://insideairbnb.com/get-the-data.html
+# Data | 
+http://insideairbnb.com/get-the-data.html
 
 # Technologies |
 * Python/Pandas
