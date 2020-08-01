@@ -27,8 +27,8 @@ http://insideairbnb.com/get-the-data.html
 # Process |
 Download monthly “Listings.csv” from the relevant city. (4th in section) Include every available month from May 2018 - May 2020 starting from the equivalent month when Covid-19 was announced.  For instance, NYC was affected in March, therefore the dataset will include May 2018 - May 2019, June 2019 - May 2020. “Fiscal Year” - With drill down into months if possible
 
-Process historical data
-* Clean data with Pandas/Python (7/30)
+## Process historical data
+Clean data with Pandas/Python (7/30)
 * Add column for month of data
 * Create annual spreadsheet based on May - May
 * Removing extra columns
