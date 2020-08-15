@@ -11,7 +11,7 @@ Authors | Kara Hodges, Grace Huefner, Thomas Knies, Laura Bullard, Lisa Reed-Pre
 # Objective | 
 Analyze Airbnb data in selected international cities in 2018-2019 and predict the potential sales for Airbnb and then compare to the actual 2019-2020 data.  Specifically we will be looking at at:
 * New York - Lisa  (March 1, 2020 - first case)
-* Tokyo - Grace
+* Hong Kong - Grace
 * Venice - Kara
 * Rio - Thomas
 * Berlin - Laura
