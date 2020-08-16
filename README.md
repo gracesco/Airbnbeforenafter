@@ -112,7 +112,7 @@ Machine Learning Processing
   # Splitting into train and test sets
   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=123)
   ```
-  Trained data using six models, including RGBoost, Sequential, Time, Adam, SGD.  RGBoost was the most successful model.
+  Trained data using six models, including RGBoost and Keras Sequential.  RGBoost was the most successful model.
   ```
   xgb_reg_start = time.time()
 
