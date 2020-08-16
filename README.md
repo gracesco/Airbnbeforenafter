@@ -163,4 +163,5 @@ Tableau Visualizations
 
 # Troubleshooting |
 * Converting data types in Pandas was necessary before running Machine Learning Process.
+* Machine learning process included many tweaks to improve accuracy percentage, correct column alignment, same row input information.
 
