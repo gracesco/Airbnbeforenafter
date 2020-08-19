@@ -161,6 +161,8 @@ Tableau Visualizations
 * 5 dashboards combined to create Tableau story.
 * Dashboard of comparisons between then, now and prediction of now
 
+https://public.tableau.com/profile/laura.bullard#!/vizhome/MachineLearning-AirBnBComparisons/Dashboard1
+
 # Troubleshooting |
 * Converting data types in Pandas was necessary before running Machine Learning Process.
 * Machine learning process included many tweaks to improve accuracy percentage, correct column alignment, same row input information.
