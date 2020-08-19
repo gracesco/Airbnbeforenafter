@@ -161,6 +161,8 @@ Tableau Visualizations
 * 5 dashboards combined to create Tableau story.
 * Dashboard of comparisons between then, now and prediction of now
 
+https://public.tableau.com/profile/grace.huefner#!/vizhome/FullProject/VeniceDashboard
+
 https://public.tableau.com/profile/laura.bullard#!/vizhome/MachineLearning-AirBnBComparisons/Dashboard1
 
 # Troubleshooting |
