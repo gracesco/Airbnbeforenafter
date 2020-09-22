@@ -33,6 +33,17 @@ Clean data with Pandas/Python
 * Create annual spreadsheet based on May 2018 - May 2019
 * Removing extra columns
 * LEAVE IN Id as Listing ID, Host ID, Longitude, Latitude, Neighbourhood (not neighbourhood group), Room Type, Price, Availability, Calculated Host Listing, Minimum Nights
+```
+NYC1806_df = pd.read_csv("raw_data/2018Jun.csv")
+NYC1806_df['date'] = '06/03/2018'
+NYC1806_df['date']=pd.to_datetime(NYC1806_df['date'])
+
+NYC1806_df = NYC1806_df.drop(columns=['name', 'host_name', 'neighbourhood_group', 'number_of_reviews', 'last_review', 'reviews_per_month', 'availability_365'])
+
+NYC1806_df = NYC1806_df[ ['date'] + [ col for col in NYC1806_df.columns if col != 'date' ] ]
+
+NYC1806_df.head()
+```
 
 Machine Learning Processing
 * Feed May 2018 - May 2019 into Machine Learning to predict June 2019-May 2020
