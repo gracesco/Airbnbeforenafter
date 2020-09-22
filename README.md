@@ -38,7 +38,8 @@ NYC1806_df = pd.read_csv("raw_data/2018Jun.csv")
 NYC1806_df['date'] = '06/03/2018'
 NYC1806_df['date']=pd.to_datetime(NYC1806_df['date'])
 
-NYC1806_df = NYC1806_df.drop(columns=['name', 'host_name', 'neighbourhood_group', 'number_of_reviews', 'last_review', 'reviews_per_month', 'availability_365'])
+NYC1806_df = NYC1806_df.drop(columns=['name', 'host_name', 'neighbourhood_group', 'number_of_reviews', 'last_review', 
+ 'reviews_per_month', 'availability_365'])
 
 NYC1806_df = NYC1806_df[ ['date'] + [ col for col in NYC1806_df.columns if col != 'date' ] ]
 
